@@ -1,24 +1,37 @@
 # Архиватор на Python 3.14
+
 Архиватор/распаковщик с поддержкой bz2 и zstd
 
 **команды:**
+
   {archive,extract}  Команда
+  
     archive          Архивировать файл или директорию
+    
     extract          Распаковать архив
 
 **доп опции:**
+
   -h, --help         помощь
 
 **Примеры использования:**
+
   Архивация файла в zstd:           python LP1.py archive file.txt archive.zst
+  
   Архивация файла в bz2:            python LP1.py archive file.txt archive.bz2
+  
   Архивация папки в tar.zst:        python LP1.py archive folder/ archive.tar.zst
+  
   Архивация с прогресс-баром:       python LP1.py archive bigfile.txt out.zst --progress
+  
   Архивация с замером времени:      python LP1.py archive data/ backup.tar.bz2 --benchmark
 
   Распаковка zstd:                  python LP1.py extract archive.zst output/
+  
   Распаковка tar.bz2:               python LP1.py extract backup.tar.bz2 restored/
+  
   Распаковка с прогресс-баром:      python LP1.py extract large.tar.zst out/ --progress
+  
   Распаковка с замером времени:     python LP1.py extract archive.bz2 . --benchmark
 
 
