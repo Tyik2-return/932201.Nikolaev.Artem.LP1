@@ -32,9 +32,11 @@
 <img width="686" height="259" alt="image" src="https://github.com/user-attachments/assets/ccfe16f6-77ea-4cc8-ac82-ff953a7288eb" />
 
 Распаковка:
+
 <img width="688" height="135" alt="image" src="https://github.com/user-attachments/assets/3edeefdb-9347-4faf-aab3-5e9bc64e4918" />
 
 Результат:
+
 <img width="587" height="176" alt="image" src="https://github.com/user-attachments/assets/43a24c3a-4be3-4ffc-8762-1fe2d15dad87" />
 
 
